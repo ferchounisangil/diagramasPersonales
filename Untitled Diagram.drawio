@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net" modified="2021-06-18T00:25:26.645Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="EC6t2DQBnpFwYM-d2CGf" version="14.8.0" type="github">
+  <diagram id="Ez-HbBydAwECWLVtGcuG" name="Page-1">
+    <mxGraphModel dx="1108" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c3e8LYdZi9KCaVJFfG4I-2" value="GestionPqrOnlineWEB" style="swimlane;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="40" y="50" width="510" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="c3e8LYdZi9KCaVJFfG4I-1" value="Cliente Migrado" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="c3e8LYdZi9KCaVJFfG4I-2">
+          <mxGeometry x="270" y="125" width="135" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="c3e8LYdZi9KCaVJFfG4I-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=1 1;" edge="1" parent="c3e8LYdZi9KCaVJFfG4I-2" source="c3e8LYdZi9KCaVJFfG4I-7" target="c3e8LYdZi9KCaVJFfG4I-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c3e8LYdZi9KCaVJFfG4I-7" value="Consulta MSISDN" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="c3e8LYdZi9KCaVJFfG4I-2">
+          <mxGeometry x="277.5" y="35" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c3e8LYdZi9KCaVJFfG4I-6" value="Si" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="c3e8LYdZi9KCaVJFfG4I-2">
+          <mxGeometry x="405" y="150" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="c3e8LYdZi9KCaVJFfG4I-14" value="TigoOnline" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="c3e8LYdZi9KCaVJFfG4I-2">
+          <mxGeometry x="10" y="90" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="c3e8LYdZi9KCaVJFfG4I-34" value="+ PresentarPQR" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="c3e8LYdZi9KCaVJFfG4I-14">
+          <mxGeometry x="10" y="30" width="100" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="c3e8LYdZi9KCaVJFfG4I-35" value="+ ConsultarPQR" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="c3e8LYdZi9KCaVJFfG4I-14">
+          <mxGeometry x="10" y="50" width="100" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="c3e8LYdZi9KCaVJFfG4I-18" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="c3e8LYdZi9KCaVJFfG4I-2">
+          <mxGeometry x="240" y="150" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="c3e8LYdZi9KCaVJFfG4I-16" value="&lt;a class=&quot;Hyperlink SCXW136160635 BCX0&quot; href=&quot;https://tigoonline.tigo.com.co/GestionPqrOnLineWEB/pages/inicio.jsf&quot; target=&quot;_blank&quot; style=&quot;margin: 0px ; padding: 0px ; font-family: &amp;#34;arial&amp;#34; , &amp;#34;arial_msfontservice&amp;#34; , sans-serif ; font-size: 14.6667px ; text-align: justify ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;span lang=&quot;ES-CO&quot; class=&quot;TextRun Underlined SCXW136160635 BCX0&quot; style=&quot;margin: 0px ; padding: 0px ; color: rgb(0 , 0 , 255) ; font-size: 11pt ; line-height: 17.2667px ; font-family: &amp;#34;arial&amp;#34; , &amp;#34;arial_embeddedfont&amp;#34; , &amp;#34;arial_msfontservice&amp;#34; , sans-serif&quot;&gt;&lt;span class=&quot;NormalTextRun SCXW136160635 BCX0&quot; style=&quot;margin: 0px ; padding: 0px&quot;&gt;https://tigoonline.tigo.com.co/&lt;br&gt;GestionPqrOnLineWEB/&lt;br&gt;pages/inicio.jsf&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;span lang=&quot;ES-CO&quot; class=&quot;TextRun SCXW136160635 BCX0&quot; style=&quot;margin: 0px ; padding: 0px ; font-size: 11pt ; text-align: justify ; background-color: rgb(255 , 255 , 255) ; line-height: 17.2667px ; font-family: &amp;#34;arial&amp;#34; , &amp;#34;arial_embeddedfont&amp;#34; , &amp;#34;arial_msfontservice&amp;#34; , sans-serif&quot;&gt;&lt;span class=&quot;NormalTextRun SCXW136160635 BCX0&quot; style=&quot;margin: 0px ; padding: 0px&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;" vertex="1" parent="c3e8LYdZi9KCaVJFfG4I-2">
+          <mxGeometry x="10" y="210" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c3e8LYdZi9KCaVJFfG4I-3" value="Container" style="swimlane;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="580" y="310" width="200" height="195" as="geometry" />
+        </mxCell>
+        <mxCell id="c3e8LYdZi9KCaVJFfG4I-4" value="&lt;p style=&quot;line-height: 120% ; font-size: 19px&quot;&gt;QVantel&lt;br&gt;Zendesk&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="c3e8LYdZi9KCaVJFfG4I-3">
+          <mxGeometry x="55" y="40" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="c3e8LYdZi9KCaVJFfG4I-12" value="&lt;div&gt;&lt;a class=&quot;Hyperlink SCXW46569479 BCX0&quot; href=&quot;http://tigo-www-preview-co-feature-ds-503.s3-website-us-east-1.amazonaws.com/test-form-pqr&quot; target=&quot;_blank&quot; style=&quot;margin: 0px ; padding: 0px ; font-family: &amp;#34;arial&amp;#34; , &amp;#34;arial_msfontservice&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;&lt;span lang=&quot;ES-CO&quot; class=&quot;TextRun Underlined SCXW46569479 BCX0&quot; style=&quot;margin: 0px ; padding: 0px ; color: rgb(0 , 0 , 255) ; line-height: 17.2667px ; font-family: &amp;#34;arial&amp;#34; , &amp;#34;arial_embeddedfont&amp;#34; , &amp;#34;arial_msfontservice&amp;#34; , sans-serif&quot;&gt;&lt;span class=&quot;NormalTextRun SCXW46569479 BCX0&quot; style=&quot;margin: 0px ; padding: 0px&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;http://tigo-www-preview-co-feature-ds-503.s3-website-us-east-1.amazonaws.com/test-form-pqr&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;" vertex="1" parent="c3e8LYdZi9KCaVJFfG4I-3">
+          <mxGeometry y="130" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="c3e8LYdZi9KCaVJFfG4I-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="c3e8LYdZi9KCaVJFfG4I-1" target="c3e8LYdZi9KCaVJFfG4I-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c3e8LYdZi9KCaVJFfG4I-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="c3e8LYdZi9KCaVJFfG4I-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c3e8LYdZi9KCaVJFfG4I-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="c3e8LYdZi9KCaVJFfG4I-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="115" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c3e8LYdZi9KCaVJFfG4I-21" value="&lt;font style=&quot;font-size: 12px&quot;&gt;«&lt;b&gt;GatewayPlatform&lt;/b&gt;&lt;/font&gt;»" style="html=1;dropTarget=0;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="640" y="80" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="c3e8LYdZi9KCaVJFfG4I-22" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="c3e8LYdZi9KCaVJFfG4I-21">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c3e8LYdZi9KCaVJFfG4I-36" value="+ ConsultarSIC" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="60" y="210" width="100" height="26" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
